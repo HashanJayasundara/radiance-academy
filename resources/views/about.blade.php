@@ -40,8 +40,8 @@
         </div>
     </div>
 
-    <div class="text-center mt-5">
+    <!-- <div class="text-center mt-5">
         <a href="{{ url('/') }}" class="btn btn-primary btn-lg">Back to Home</a>
-    </div>
+    </div> -->
 </div>
 @endsection

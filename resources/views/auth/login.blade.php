@@ -28,7 +28,7 @@
         
 
         <div class="mt-3 text-center">
-            <a href="{{ route('register') }}" class="text-decoration-none">Not registered yet? Register here</a>
+        Not registered yet?<a href="{{ route('register') }}" class="text-decoration-none"> Register here</a>
         </div>
     </div>
 </div>

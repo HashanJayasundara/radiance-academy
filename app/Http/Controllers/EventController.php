@@ -10,12 +10,12 @@ class EventController extends Controller
     public function index()
     {
         $events = Event::where('status', 'finished')->get();
-        return view('event', compact('events'));
+        return view('events.index', compact('events'));
     }
 
     public function create()
     {
-        return view('event_create');
+        return view('events.create');
     }
 
     public function store(Request $request)

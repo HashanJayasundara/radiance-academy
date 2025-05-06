@@ -41,11 +41,31 @@
             <li><strong>Email:</strong> <a href="mailto:info@radiancedance.com" class="text-decoration-none">info@radiancedance.com</a></li>
             <li><strong>Follow us:</strong></li>
             <ul class="list-inline">
-                <li class="list-inline-item"><a href="#" class="text-decoration-none">WhatsApp</a></li>
-                <li class="list-inline-item"><a href="#" class="text-decoration-none">Facebook</a></li>
-                <li class="list-inline-item"><a href="#" class="text-decoration-none">YouTube</a></li>
-                <li class="list-inline-item"><a href="#" class="text-decoration-none">Instagram</a></li>
-                <li class="list-inline-item"><a href="#" class="text-decoration-none">TikTok</a></li>
+                <li class="list-inline-item">
+                    <a href="https://wa.link/rdcd7g" class="text-decoration-none" target="_blank">
+                        <img src="{{ asset('images/social_media_icons/whatsapp.svg') }}" alt="WhatsApp" style="width: 24px; height: 24px;">
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="https://www.facebook.com/profile.php?id=61564125856597" class="text-decoration-none" target="_blank">
+                        <img src="{{ asset('images/social_media_icons/facebook.svg') }}" alt="Facebook" style="width: 24px; height: 24px;">
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" class="text-decoration-none" target="_blank">
+                        <img src="{{ asset('images/social_media_icons/youtube.svg') }}" alt="YouTube" style="width: 24px; height: 24px;">
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" class="text-decoration-none" target="_blank">
+                        <img src="{{ asset('images/social_media_icons/instagram.svg') }}" alt="Instagram" style="width: 24px; height: 24px;"> 
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" class="text-decoration-none" target="_blank">
+                        <img src="{{ asset('images/social_media_icons/tiktok.svg') }}" alt="TikTok" style="width: 24px; height: 24px;">
+                    </a>
+                </li>
             </ul>
         </ul>
     </div>

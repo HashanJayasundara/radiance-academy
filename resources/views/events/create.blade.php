@@ -23,7 +23,13 @@
     </div>
     <div class="mb-3">
         <label>Event Category</label>
-        <input type="text" name="event_category" class="form-control" required>
+        <select name="event_category" class="form-control" required>
+            <option value="Wedding">Wedding</option>
+            <option value="Birthday">Birthday</option>
+            <option value="Corporate">Corporate</option>
+            <option value="Private">Private</option>
+            <option value="Other">Other</option>
+        </select>
     </div>
     <div class="mb-3">
         <label>Package Type</label>
@@ -47,29 +53,3 @@
 
 
 
-<!-- @extends('layouts.app')
-
-@section('content')
-<h2>Place Your Event</h2>
-
-<form action="{{ route('events.store') }}" method="POST">
-    @csrf
-    <input type="text" name="customer_name" placeholder="Customer Name" required><br><br>
-    <input type="text" name="event_location" placeholder="Event Location" required><br><br>
-    <input type="time" name="event_time" required><br><br>
-    <input type="date" name="event_date" required><br><br>
-    <input type="text" name="event_category" placeholder="Event Category" required><br><br>
-
-    <select name="package_type" required>
-        <option value="">Select Package</option>
-        <option value="Standard">Standard</option>
-        <option value="Premium">Premium</option>
-        <option value="Pro">Pro</option>
-    </select><br><br>
-
-    <input type="number" name="number_of_dancers" placeholder="Number of Dancers" required><br><br>
-
-    <button type="submit">Submit</button>
-    <a href="{{ route('events') }}">Exit</a>
-</form>
-@endsection -->

@@ -24,22 +24,3 @@
 @endsection
 
 
-<!-- @extends('layouts.app')
-
-@section('content')
-<h2>Our Events</h2>
-
-<a href="{{ route('events.create') }}" class="btn btn-primary">Place Event</a>
-
-<div style="display: flex; flex-wrap: wrap; margin-top: 20px;">
-@foreach($events as $event)
-    <div style="width: 30%; margin: 10px; padding: 10px; border: 1px solid #ccc;">
-        <h4>{{ $event->package_type }} Package</h4>
-        <p>Location: {{ $event->event_location }}</p>
-        <p>Date: {{ $event->event_date }}</p>
-        <p>Time: {{ $event->event_time }}</p>
-        <p>Number of Dancers: {{ $event->number_of_dancers }}</p>
-    </div>
-@endforeach
-</div>
-@endsection -->
