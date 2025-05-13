@@ -13,6 +13,14 @@
 
     <div style="flex-grow: 1; padding: 20px;">
         <h2>Welcome, Admin!</h2>
+
+        <a href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+            Logout
+        </a>
+
+        <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+            @csrf
+        </form>
     </div>
 </div>
 @endsection

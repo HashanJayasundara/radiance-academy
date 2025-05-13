@@ -9,7 +9,7 @@ class ClassController extends Controller
 {
     public function create()
     {
-        return view('admin.classes.create');
+        return view('events.admin.classes.create');
     }
 
     public function store(Request $request)
@@ -28,6 +28,6 @@ class ClassController extends Controller
     public function manage()
     {
         $classes = DanceClass::all();
-        return view('admin.classes.manage', compact('classes'));
+        return view('events.admin.classes.manage', compact('classes'));
     }
 }

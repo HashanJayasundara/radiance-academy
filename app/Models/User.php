@@ -20,6 +20,7 @@ class User extends Authenticatable
         'telephone',
         'grade',
         'gender',
+        'class_type',
         'role',         // student | admin
     ];
 
